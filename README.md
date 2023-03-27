@@ -2,6 +2,6 @@
 
 - Made using: React, React-Router, Spring-Parallax, react-Bootstrap, React-Particles and more!
 
-![image](https://i.imgur.com/eVvsNIF.jpeg)
+![image](https://i.imgur.com/JfKGUZT.jpeg)
 
 

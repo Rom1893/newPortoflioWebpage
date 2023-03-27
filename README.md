@@ -1,11 +1,7 @@
-## Built With
+# React.js Portofolio webpage
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- Made using: React, React-Router, Spring-Parallax, react-Bootstrap, React-Particles and more!
 
+![image](https://i.imgur.com/eVvsNIF.jpeg)
 
 

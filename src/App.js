@@ -5,7 +5,6 @@ import Home from "./components/Home/Home";
 import Home2 from "./components/Home/Home2";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
@@ -54,3 +53,4 @@ function App() {
 
 export default App;
 
+//Webpage made possible thanks to https://github.com/soumyajit4419

@@ -464,7 +464,10 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background: 
+  var(--section-background-color) top left no-repeat,
+  url("./Assets/sky.png") top left no-repeat;
+  background-size: cover;
 }
 
 .project-card {
@@ -476,7 +479,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px #09979742 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -487,7 +490,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #09979742 !important;
 }
 
 .blog-card {
@@ -500,7 +503,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px #09979742 !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -518,7 +521,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px #09979764 !important;
 }
 
 .card-img-top {
@@ -627,15 +630,40 @@ button:focus {
 .resume-section {
   position: relative !important;
   padding-top: 110px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  padding-bottom: 300px !important;
+  background: 
+  var(--section-background-color) top left no-repeat,
+  url("./Assets/sky.png") top left no-repeat;
+  background-size: cover;
   color: white !important;
+}
+
+.resume-background{
+  background-image: url("./Assets/sky.png") !important;
+  background-size: cover;
 }
 
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+}
+
+.resumepdf{
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .resumepdf {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .resumepdf {
+    width: 40%;
+  }
 }
 
 .resume-left {

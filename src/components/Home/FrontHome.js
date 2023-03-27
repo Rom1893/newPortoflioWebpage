@@ -4,7 +4,6 @@ import Home from "../Home/Home";
 import Home2 from "../Home/Home2";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
-import Footer from "../Footer";
 import Resume from "../Resume/ResumeNew";
 
 import "bootstrap/dist/css/bootstrap.min.css";

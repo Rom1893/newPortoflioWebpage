@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import homeLogo from "../../Assets/wfh.svg"; //Image by <a href="https://www.freepik.com/free-vector/man-taking-break-from-work_7712733.htm#query=work%20from%20home&position=31&from_view=search&track=ais">Freepik</a>
-import Type from "./Type";
-import Home2 from "./Home2";
 import Particle from "../Particle";
+import Home2 from "./Home2";
+import Type from "./Type";
 
 function Home() {
   return (
@@ -40,8 +40,8 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <Home2 />
       </Container>
-      <Home2 />
     </section>
   );
 }

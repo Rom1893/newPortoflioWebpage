@@ -270,7 +270,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background: url("./Assets/sky.png");
   background-size: cover;
   padding-bottom: 30px !important;
@@ -334,8 +334,6 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  background: url("./Assets/sky.png");
-  background-size: cover;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
@@ -572,7 +570,9 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 200px !important;
-  background: url("./Assets/sky.png");
+  background: 
+  var(--section-background-color) top left no-repeat,
+  url("./Assets/sky.png") top left no-repeat;
   background-size: cover;
   color: white !important;
 }

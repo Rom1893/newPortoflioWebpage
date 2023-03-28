@@ -20,7 +20,7 @@ function Home2() {
             My passion for programming was ignited when I began exploring data  science as a way to apply my degree in Biochemistry to solve complex problems using languages like <b className="purple"> Python and Matlab </b>. Through this journey, I discovered my love for programming and how it can be used to create innovative solutions.
               <br />
               <br />Being fluent in both
-                <b className="purple"> Spanish and English </b> my interests lie in in the fields of  <b className="purple"> web technologies, products, and deep learning</b>
+                <b className="purple"> Spanish and English </b> my interests lie in the fields of  <b className="purple"> web technologies, products, and deep learning</b>
               <br />
               <br />
               During my free time, I continue to explore new technologies and tools, applying my passion for developing products with <b className="purple"> Node.Js </b> and modern JavaScript libraries and frameworks like <b className="purple"> React.js and Next.js </b>

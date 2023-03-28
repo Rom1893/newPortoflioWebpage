@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import yahtzee from "../../Assets/Projects/yahtzee.png";
-import lights from "../../Assets/Projects/lights.png";
+import { Col, Container, Row } from "react-bootstrap";
 import campsite from "../../Assets/Projects/campsite.png";
 import color from "../../Assets/Projects/color.png";
 import datas from "../../Assets/Projects/datas.png"; //<a href="https://www.freepik.com/free-vector/illustration-social-media-concept_2807761.htm#query=datascience&position=19&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
+import lights from "../../Assets/Projects/lights.png";
+import yahtzee from "../../Assets/Projects/yahtzee.png";
+import Particle from "../Particle";
+import ProjectCard from "./ProjectCards";
 
 function Projects() {
   return (

@@ -1,13 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png"; //Image by <a href="https://www.freepik.com/free-vector/hand-drawn-profile-icon_18300334.htm#&position=6&from_view=collections">Freepik</a>
-import Tilt from "react-parallax-tilt";
+import { Col, Container, Row } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/avatar.png"; //Image by <a href="https://www.freepik.com/free-vector/hand-drawn-profile-icon_18300334.htm#&position=6&from_view=collections">Freepik</a>
 
 function Home2() {
   return (

@@ -1,15 +1,11 @@
 import React from "react";
-import Navbar from "../Navbar";
 import Home from "../Home/Home";
 import Home2 from "../Home/Home2";
-import About from "../About/About";
-import Projects from "../Projects/Projects";
-import Resume from "../Resume/ResumeNew";
 
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import sky from "../../Assets/sky.png" //<a href="https://www.vecteezy.com/free-vector/parallax">Parallax Vectors by Vecteezy</a>
-import lake from "../../Assets/lake.svg" //<a href="https://www.vecteezy.com/free-vector/parallax">Parallax Vectors by Vecteezy</a>
+import lake from "../../Assets/lake.svg"; //<a href="https://www.vecteezy.com/free-vector/parallax">Parallax Vectors by Vecteezy</a>
+import sky from "../../Assets/sky.png"; //<a href="https://www.vecteezy.com/free-vector/parallax">Parallax Vectors by Vecteezy</a>
 import Particle from "../Particle";
 
 

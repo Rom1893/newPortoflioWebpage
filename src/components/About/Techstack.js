@@ -1,19 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiGit,
-} from "react-icons/di";
-import {
-  SiNextdotjs,
-} from "react-icons/si";
 import {
   BsBootstrap
-} from "react-icons/bs"
+} from "react-icons/bs";
+import {
+  DiGit, DiJavascript1, DiMongodb, DiNodejs, DiReact
+} from "react-icons/di";
+import {
+  SiNextdotjs
+} from "react-icons/si";
 
 function Techstack() {
   return (

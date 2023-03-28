@@ -2,11 +2,14 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import homeLogo from "../../Assets/wfh.svg"; //Image by <a href="https://www.freepik.com/free-vector/man-taking-break-from-work_7712733.htm#query=work%20from%20home&position=31&from_view=search&track=ais">Freepik</a>
 import Type from "./Type";
+import Home2 from "./Home2";
+import Particle from "../Particle";
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
+        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -37,7 +40,9 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <Home2 />
       </Container>
+
     </section>
   );
 }

@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 import Preloader from "../src/components/Pre";
 import "./App.css";
-import FrontAbout from "./components/About/FrontAbout";
-import FrontHome from "./components/Home/FrontHome";
+import About from "./components/About/About";
+import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
@@ -34,9 +34,9 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<FrontHome />} />
+          <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<FrontAbout />} />
+          <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

@@ -271,6 +271,8 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
+  background: url("./Assets/sky.png");
+  background-size: cover;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -568,7 +570,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 200px !important;
-  background-image: var(--section-background-color) !important;
+  background: url("./Assets/sky.png");
   background-size: cover;
   color: white !important;
 }
@@ -796,67 +798,3 @@ button:focus {
   display: none !important;
 }
 
-
-@media (max-width: 767px) {
-  .parallax-container {
-    height: auto !important;
-    min-height: 170vh;
-  }
-
-  .parallax-container2 {
-    height: auto !important;
-    min-height: 150vh;
-  }
-
-  .parallax-layer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  .home-about-section {
-    margin-bottom: 300px;
-  }
-
-
-  .myAvtar {
-    padding-top: 1px !important;
-    margin-top: 1px !important;
-    width: 40% !important;
-    height: auto !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  .myAvtar2 {
-    width: 70% !important;
-    height: auto !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  .font-about-size {
-    font-size: 1.5em !important;
-  }
-
-  .tech-icons {
-    font-size: 2em !important;
-    margin: 10px !important;
-    padding: 5px !important;
-  }
-
-  .project-heading{
-    font-size: 1.5em !important;
-  }
-
-  .about-section{
-    margin-top: 770px;
-  }
-
-  .blockquote-size{
-    font-size: 1.1em !important;
-  }
-
-
-}

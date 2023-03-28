@@ -334,6 +334,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
+  background: url("./Assets/sky.png");
+  background-size: cover;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }

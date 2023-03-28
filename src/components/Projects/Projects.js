@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import yahtzee from "../../Assets/Projects/yahtzee.png";
+import lights from "../../Assets/Projects/lights.png";
+import campsite from "../../Assets/Projects/campsite.png";
+import color from "../../Assets/Projects/color.png";
+import datas from "../../Assets/Projects/datas.png"; //<a href="https://www.freepik.com/free-vector/illustration-social-media-concept_2807761.htm#query=datascience&position=19&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
 
 function Projects() {
   return (
@@ -23,56 +22,53 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              imgPath={color}
+              title="ColorPicker"
+              description="Based on Flat UI colors and Material Ui colors, is a responsive easy to use color picker, for creating your own
+              Palettes. It was made completely in React, using react-router, Material UI, and JSS styles."
+              ghLink="https://github.com/Rom1893/PalettesProject"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              imgPath={campsite}
+              title="Camping-site Website"
+              description="Based on Yelp Website. It’s a website where you can, as a user, post a camping spot, describe it, upload
+              images, and also review other camping spots. This application was made using HTML, CSS, Bootstrap and
+              JavaScript (ejs). It has user authentication with credentials stored in MongoDB using ATLAS."
+              ghLink="https://github.com/Rom1893/Campingsite"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"            
+              imgPath={lights}
+              title="Lights-Out Game"
+              description="The game consists of a 5 by 5 grid of lights. When the game starts, a random pattern of these lights is
+              switched on. Pressing any of the lights will toggle it and the adjacent lights, the goal is to turn off all the lights.
+              This game was made using React class-based components and CSS"
+              ghLink="https://github.com/Rom1893/Lights-out"            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              imgPath={yahtzee}
+              title="Yahtzee!"
+              description="The objective of the game is to score points by rolling five dice to make certain combinations. The dice can be
+              rolled up to three times in a turn to try to make various scoring combinations. This game was made using React
+              and CSS"
+              ghLink="https://github.com/Rom1893/Yahtzee"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={datas}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
           </Col>
         </Row>

@@ -66,9 +66,9 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={datas}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Smoltification Transcriptome Analysis"
+              description="This data science project aims to understand the Smoltification process of Atlantic salmon through transcriptomic sequencing and bioinformatics analysis. The study identifies changes in transcript expression between Parr and Smolt stages, with a focus on the anterior kidney tissue. The results provide insight into the physiological changes that occur during Smoltification, and the potential impact on salmon survival in aquaculture."
+              ghLink="https://github.com/Rom1893/newPortoflioWebpage/blob/main/src/Assets/Projects/congress.pdf"
             />
           </Col>
         </Row>

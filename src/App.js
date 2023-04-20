@@ -1,8 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useEffect, useState } from "react";
 import {
-  BrowserRouter as Router, Navigate, Route,
-  Routes
+  BrowserRouter as Router,
+  Navigate,
+  Route,
+  Routes,
 } from "react-router-dom";
 import Preloader from "../src/components/Pre";
 import "./App.css";
@@ -13,8 +15,6 @@ import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/ResumeNew";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
-
-
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -40,7 +40,6 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-
       </div>
     </Router>
   );

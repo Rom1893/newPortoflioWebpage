@@ -4,7 +4,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import {
-  AiFillStar, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser
+  AiFillStar,
+  AiOutlineFundProjectionScreen,
+  AiOutlineHome,
+  AiOutlineUser,
 } from "react-icons/ai";
 import { CgGitFork } from "react-icons/cg";
 import { Link } from "react-router-dom";
@@ -77,7 +80,6 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
 
             <Nav.Item>
               <Nav.Link

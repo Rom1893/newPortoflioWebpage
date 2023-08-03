@@ -21,9 +21,8 @@ function AboutCard() {
             collaborative environments.
             <br />
             <br />
-            As a Semi-Senior Developer, I aim to become a senior developer in
-            the future, and I'm excited to tackle any challenges that come my
-            way.
+            As a FullStack Developer, I aim to become a Tech Lead in the future,
+            and I'm excited to tackle any challenges that come my way.
           </p>
         </blockquote>
       </Card.Body>
